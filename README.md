@@ -14,7 +14,7 @@ Struktur data yang digunakan adalah list 1 dimensi, yaitu dengan menggunakan dua
 c. Penjelasan Kode
 ==================
 
-![image alt](Screenshot 2026-04-28 143744)
+![image alt]([Screenshot 2026-04-28 143744](https://github.com/Mizunanri/PSD-2026-2515061088/blob/4aba12bb568b328f6e1d62588caa2d881a3890b7/img/Screenshot%202026-04-28%20143744.png))
 
    def main():
 Baris ini digunakan untuk mendefinisikan fungsi utama program.
