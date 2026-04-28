@@ -3,7 +3,6 @@ a. Judul Program
 =================================
 Program Kasir Sederhana Menggunakan Struktur Data List 1 Dimensi
 
-=============================================================================
 b. Deskripsi Singkat
 ====================
 
@@ -12,7 +11,6 @@ Program ini dibuat untuk mensimulasikan sistem kasir sederhana menggunakan bahas
 Struktur data yang digunakan adalah list 1 dimensi, yaitu dengan menggunakan dua buah list. List pertama digunakan untuk menyimpan nama barang (keranjang), sedangkan list kedua digunakan untuk menyimpan harga barang (harga). Kedua list ini saling berhubungan berdasarkan index, jadi data tetap konsisten. Dengan cara ini, program bisa mengelola data secara sederhana tapi tetap rapi.
 
 
-=============================================================================
 c. Penjelasan Kode
 ==================
 
@@ -195,7 +193,6 @@ jika memengetik pilihan/no yg tidak ada dimenu if dan elif jika input menu salah
 
 Menjalankan fungsi utama program kasir sederhana.
 
-=============================================================================
 d. Output Program
 =================
 
@@ -253,13 +250,11 @@ jika kita memilih opsi 5 yaitu keluar maka akan muncul pesan Terima kasih dan pr
 
 jika pilihan yang kita masukan tidak benar maka akan muncul pesan pilihan tidak valid dan program kan melakukan pemilihan ulang
 
-=============================================================================
 e. Link YouTube
 ===============
 Link Video Demo:
 (https://youtu.be/bwCw3dYOZcA)
 
-=============================================================================
 Kesimpulan
 ==========
 Program ini berhasil mengimplementasikan struktur data List 1 Dimensi dalam studi kasus kasir sederhana. Penggunaan list memungkinkan pengelolaan data yang fleksibel dan mudah, terutama dalam operasi penambahan, penghapusan, dan pencarian data.
