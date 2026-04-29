@@ -1,4 +1,5 @@
 Program Kasir Sederhana (List 1D)
+=================================
 
 a. Judul Program
 =================================
