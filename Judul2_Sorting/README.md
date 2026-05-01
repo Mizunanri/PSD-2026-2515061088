@@ -81,18 +81,23 @@ D. Output Program
 =================
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154432.png)
+
 Saat dijalankan dibuka dengan input "Masukkan jumlah mahasiswa: " untuk jumlah tergantung berpa jumlah nama yang mau diurutkan
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154450.png)
+
 lalu saat sudah menentukan berpa jumlah yang mau diurutkan akan diperintahkan memasukan nama mahasiswa yang mau diurutkan sesuai jumlahnya
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154718.png)
+
 contoh disini saya sudah memasukkan 10 nama mahasiswa yang mau disorting
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154737.png)
+
 disini akan dicetak nama- nama mahasiswa yag masih berantakan sebelum dilakukan bubble sort
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154749.png)
+
 disini saat sudah dilakukan bubble sort, terlihat jelas bahwa nama mahasiswa yang mana tadi berantakanjadi rapi sesuai abjad(A-Z)
 
 e. Link YouTube
