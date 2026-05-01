@@ -14,12 +14,17 @@ Proses ini dilakukan berulang hingga seluruh data terurut dengan benar.
 C. Penjelasan Kode
 ==================
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20153920.png)
+
+
     def tukar(arr, i, j):
         temp = arr[i]
         arr[i] = arr[j]
         arr[j] = temp
 disini fungsi tukar yg mana berfungsi untuk melakukan penukaran variable sorting
 temp untuk menyimpan sementara data dan arr[i], arr[j] itu tempat dari data yang mau diurutkan(sorting)
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20153932.png)
 
     def bubble_sort(arr, n):
         for i in range(n - 1):
@@ -32,6 +37,8 @@ didalam i ada for j (n - i - 1) dimana jika n=5 maka akan dikurang i yang mana t
 nah baru mulai bandingkan yg mana jika arr[j] yg mana tadi 0 dan > arr[j + 1] jadi 0+1 jadi membandingkan array 0 dengan 1 dan juga ada lower yg berfungsi supaya semua nama jadi huruf kecil yang mana ini supaya proses pengurutan tidak terpaku pada kapital
 lalu terakhir jika nilai index 0 lebih besar makan akan memulai fungsi tukar
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20153946.png)
+
     def main():
         try:
             n = int(input("Masukkan jumlah mahasiswa: "))
@@ -40,6 +47,8 @@ lalu terakhir jika nilai index 0 lebih besar makan akan memulai fungsi tukar
             return
 selanjutnya main koding yg mana memulai program pengurutan nama siswa dimulai dari menentukan jumlah nama yg dimasukkan berupa integer jika bukan int maka akan memcetak ("Input tidak valid!") dan program akan mulai ulang ke masukan jumlah nama 
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20153955.png)
+
         arr = []
         print("Masukkan nama mahasiswa:")
         for i in range(n):
@@ -47,16 +56,22 @@ selanjutnya main koding yg mana memulai program pengurutan nama siswa dimulai da
             arr.append(nama)
 lanjut ke membuat array kosong untuk memasukkan nama mahasiswa dan cetak "Masukkan nama mahasiswa:", kemudian membuat loop sesuai jumlah nama yang mau dimasukan sebelumnya dan menambahkan nama mahasiswa dengan append yang berfungsi menambahkan variabel di terakhir
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154005.png)
+
         print("\nData sebelum diurutkan:")
         for i in range(n):
             print(f"{i+1}. {arr[i]}")
 kodingan ini untuk mencetak data sebelum diurutkan
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154025.png)
 
         bubble_sort(arr, n)
         print("\nData setelah diurutkan (Bubble Sort):")
         for i in range(n):
             print(f"{i+1}. {arr[i]}")
 nah ini setelah diurutkan, dimulai dari pemanggilan fungsi bubble_sort yang mana sudah mulai melakukan sorting data nama mahasiswa, dan melakukan cetak nama setelah diurutkan
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154037.png)
 
     if __name__ == "__main__":
         main()
@@ -65,19 +80,19 @@ untuk ini fungsinya memulai program main secara keseluruhan
 D. Output Program
 =================
 
-    foto 1
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154432.png)
 Saat dijalankan dibuka dengan input "Masukkan jumlah mahasiswa: " untuk jumlah tergantung berpa jumlah nama yang mau diurutkan
 
-    foto 2
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154450.png)
 lalu saat sudah menentukan berpa jumlah yang mau diurutkan akan diperintahkan memasukan nama mahasiswa yang mau diurutkan sesuai jumlahnya
 
-    foto 3
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154718.png)
 contoh disini saya sudah memasukkan 10 nama mahasiswa yang mau disorting
 
-    foto 4
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154737.png)
 disini akan dicetak nama- nama mahasiswa yag masih berantakan sebelum dilakukan bubble sort
 
-    foto 5
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/1984b9ef4fbae57e2d2dc17b372e111a093ab511/img2/Screenshot%202026-05-01%20154749.png)
 disini saat sudah dilakukan bubble sort, terlihat jelas bahwa nama mahasiswa yang mana tadi berantakanjadi rapi sesuai abjad(A-Z)
 
 e. Link YouTube
