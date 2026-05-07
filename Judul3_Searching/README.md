@@ -15,6 +15,7 @@ Pada program ini, pengguna dapat mencari nama pasien kemudian program akan menam
 
 C. Penjelasan Kode
 ==================
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20195725.png)
 
     def sequential_search(data, n, target):
         i = 0
@@ -29,6 +30,8 @@ kemudian mengguanakan looping while dengan syarat jika 1 lebih kecil dari n maka
 if data index 0 = target yang dicari maka mengembalikan nilai yg benar ke indek(i)
 jika belum maka index yang tadi 0 +1
 jikalau masih belum ketemu maka mengembalikan -1
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20195734.png)
 
     def main():
         data = [
@@ -55,12 +58,16 @@ jikalau masih belum ketemu maka mengembalikan -1
         n = len(data)
 selanjutnya memulai fungsiutama sistem yang mana dimulai dengan menambahkan list dari 3 hal yaitu nama pasien, ruangan, dan status pasien yang menginap, lalu n untuk mengukur panjang dari data pasien yg berfungsi sebagai pembanding data, jadi jika  panjang data 5 maka melakukan searching dari index 0 sampai index terakhir
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20195751.png)
+
     print("=== Sistem Pencarian Data Pasien ===")
     print(f"Data pasien : {data}")
     target = input("Masukkan nama pasien yang dicari: ")
     posisi = sequential_search(data, n, target)
 kemudian melakukan cetak dari sistem dan penginputan nama pasien yang mau dicari
 kemudian pasien yang mau dicari sebagai target akan memicu posisi yang mana melakukan fungsi sequential_search dan melakukan pencarian target dari index awal hingga akhir
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20195805.png)
 
     if posisi != -1:
 
@@ -75,6 +82,9 @@ lalu jika sudah melakukan search maka menentukan kondisi jika posisi != -1 yang 
 
 jika tidak ketemu maka return -1 yang mana melakukan print data pasien tidak ditemukan
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20195816.png)
+
+
     if __name__ == "__main__":
         main()
 terakhir adalah untuk memulai program secara keseluruhan dari awal hingga akhir
@@ -82,13 +92,16 @@ terakhir adalah untuk memulai program secara keseluruhan dari awal hingga akhir
 D. Output Program
 =================
 
-    foto 1
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20200947.png)
+
 Sistem dibuka dengan nama sistem pencarian data pasien dan melakukan input nama pasien yang mau dicari sebagai target
 
-    foto 2
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20201002.png)
+
 jika data yang dicari ditemukan maka akan melakukan print data ditemukan lalu mencetak nama pasien yang dicari beserta ruangan dan status kondisi pasien
 
-    foto 3
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/82bb2e86b41e599fb0cd7a8c44353e96fa97a45c/img3/Screenshot%202026-05-07%20201024.png)
+
 dan jika data yang dicari tidak ditemukan maka akan melakukan print Data pasien tidak ditemukan
 
 e. Link YouTube
