@@ -177,7 +177,7 @@ jika mau dequeue atau pilihan 2 maka otomatis antrian depan seperti 1 akan hilan
 
 jika 5 maka print program selesai dan sistem berakhir
 
-![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20083959.png
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20083959.png)
 
 jika tidak menginput selain 1-5 maka akan print input tidak valid 
 
