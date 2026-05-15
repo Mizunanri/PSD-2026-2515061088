@@ -185,7 +185,7 @@ jika tidak menginput selain 1-5 maka akan print input tidak valid
 e. Link YouTube
 ===============
 Link Video Demo:
-(https://youtu.be/bwCw3dYOZcA)
+(https://youtu.be/jNksNf7koXY)
 
 Kesimpulan
 ==========
