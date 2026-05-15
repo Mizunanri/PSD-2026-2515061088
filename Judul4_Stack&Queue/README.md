@@ -16,6 +16,8 @@ Pada program ini pelanggan dapat mengambil nomor antrean, melihat antrean terdep
 C. Penjelasan Kode
 ==================
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20075432.png)
+
     class QueueArray:
         def __init__(self, max_size=100):
             self.MAXN = max_size
@@ -33,6 +35,8 @@ lalu membuat ukuran max_size sama dengan maxn kemudian self.q membuat 100 none k
 
 lanjut membuat 2 fungsi lain seperti is_empty dengan mengembalikan index depan = -1 
 dan is_full dengan kembalikan fungsi self.rear_idx + 1 mod dari self.MAXN == self.front_idx jika rear mod nilai max=front maka fungsi is_full akan aktif
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20075448.png)
 
     def enqueue(self, nilai):
 
@@ -52,6 +56,8 @@ dan is_full dengan kembalikan fungsi self.rear_idx + 1 mod dari self.MAXN == sel
         print(f"Nomor antrian {nilai} ditambahkan")
 selanjutnya memulai enque dengan cek apakah antrian full atau kosong dan jika tidak keduanya maka memanggil else dengan memasukan nilai kedalam index self_rear lalu dimasukan ke nilai
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20075504.png)
+
     def dequeue(self):
 
         if self.is_empty():
@@ -67,6 +73,8 @@ selanjutnya memulai enque dengan cek apakah antrian full atau kosong dan jika ti
         else:
             self.front_idx = (self.front_idx + 1) % self.MAXN
 kemudian dequeue dengan cek apakah kosong jika tidak maka print Nomor antrian {self.q[self.front_idx]} silakan mengmbil makanan di kasir lanjut dengan if index depan=index belakang maka keduanya dianggap kosong(-1) jika tidak sama maka else memanggil index setelahnya kedepan
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20075517.png)
 
     def peek(self):
 
@@ -98,6 +106,8 @@ kemudian dequeue dengan cek apakah kosong jika tidak maka print Nomor antrian {s
 lanjut ke peek dengan cek apakah kosong jika tidak maka print index antrian depan
 dan fungsi terakhir display yg mana cek apakah kosong jika tidak maka akan melakukan print antrian dari depan hingga belakang
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20075633.png)
+
     def main():
         queue = QueueArray()
         pilih = 0
@@ -116,6 +126,8 @@ dan fungsi terakhir display yg mana cek apakah kosong jika tidak maka akan melak
 nah masuk ke fungsi programnya dengan memangil fungsi queue array dan pilih=0
 kemudian if jika pilih tidak sama dengan 5 maka print pilihan fungsi
 lanjut ada try input pilihan menu jika yg diinput bukan integer maka print input tdk valid dan program dilanjutkan
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20075708.png)
 
             if pilih == 1:
                 nomor = input("Masukkan nomor antrean: ")
@@ -141,25 +153,33 @@ dan terakhir if main yg mana memulai keseluruhan dari program
 D. Output Program
 =================
 
-    foto 1
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20082844.png)
+
 Sistem dibuka dengan nama sistem pencarian data pasien dan melakukan input dari 5 pilihan
 
-    foto 2
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20082930.png)
+
 jika milih 1 maka akan menambahkan data keantrian contoh disini menambah kan data antrian nomor 1-3
 
-    foto 3
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20082950.png)
+
 dan jika data ditampilkan maka bisa dilihat data dicetak dri awal hingga akhir antrian
 
-    foto 4
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20083005.png)
+
 jika kita memilih menu 3 maka kita bisa melihat atrian paling depan
 
-    foto 5
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20083214.png)
+
 jika mau dequeue atau pilihan 2 maka otomatis antrian depan seperti 1 akan hilang jika dilihat antrian 1 sudah ridak ada dan hanya antrian 2 dan 3
 
-    foto 6
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20083934.png)
+
 jika 5 maka print program selesai dan sistem berakhir
 
-    foto 7 jika tidak menginput selain 1-5 maka akan print input tidak valid 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/baa59d1de519b27f3a59a631f4781791af6bc3a9/img4/Screenshot%202026-05-15%20083959.png
+
+jika tidak menginput selain 1-5 maka akan print input tidak valid 
 
 e. Link YouTube
 ===============
