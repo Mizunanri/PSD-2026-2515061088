@@ -227,11 +227,11 @@ jika memasukan angka selain 1-8 maka muncul "Pilihan tidak valid!"
 
 misal disini memilih menu 1 maka akan memasukkan nilai, disini kita sudah memasukan bbrp nilai sebagai contoh
 
-![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190134.png)
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190156.png)
 
 jika kita mencari(opsi 2) kita akan disuruh input  nilai yang hendak dicari misal disini 70 maka nilai akan ditemukan
 
-![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190156.png)
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190134.png)
 
 kalau mau melihat urutan data maka pilih opsi 3 maka secara otomatis data akan terurut
 
