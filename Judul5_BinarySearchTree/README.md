@@ -16,6 +16,8 @@ Pada program ini pengguna dapat menambahkan nilai siswa, mencari nilai tertentu,
 C. Penjelasan Kode
 ==================
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185427.png)
+
     class Node:
         def __init__(self, key):
             self.key = key
@@ -23,6 +25,8 @@ C. Penjelasan Kode
             self.right = None
 pertama membuat objek/class node tree dengan fungsi dengan parameter self dan key
 self berfungsi memanggildiri sendiri lalu untuk left dan right none karena root, nilai kiri dan kanan masih kosong
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185437.png)
 
     class BSTNilaiSiswa:
         def __init__(self):
@@ -40,6 +44,8 @@ self berfungsi memanggildiri sendiri lalu untuk left dan right none karena root,
             self.root = self.insert_node(self.root, key)
 selanjutnya memulai dengan memanggil root karena masih kosong lalku ada fungsi insert yang mana ada kondisi jika root ksong maka mengembalikan nilai ke root yg kosong, jika nilai lebih kecil dari nilai root maka melakukan rekursi pada root sebelah kiri yang mana berfungsi memastikan nilai ditempatkan ditempat yang benar dan elif yang sama akan tetapi jika lebih besar maka akan ditempatkan disebelah kanan dan dibawahnya ada fungsi yg akan dijalankan saat memulai insert maka root akan berpindah untuk menempatkan nilai ke tempat yang sesuai  jika sudah nilai dan root akan otomatis menyesuaikan tempat tanpa mengganggu nilai lain.
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185446.png)
+
         def search_node(self, root, key):
             if root is None:
                 return False
@@ -53,6 +59,8 @@ selanjutnya memulai dengan memanggil root karena masih kosong lalku ada fungsi i
 
 kemudian fungsi search ada 3 parameter yaitu self root dan key(nilai) sebenarnya sama seperti insert akan tetapi hanya untuk mencari nilai saja
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185500.png)
+
         def inorder(self, root):
             if root is None:
                 return
@@ -60,6 +68,8 @@ kemudian fungsi search ada 3 parameter yaitu self root dan key(nilai) sebenarnya
             print(root.key, end=" ")
             self.inorder(root.right)
 lanjut ke inorder dengan parameter self dan root karena penelusuran dari kiri root lalu kanan ini berfungsi untuk penyusunan nilai yang sudah diinputkan 
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185513.png)
 
         def find_min(self, root):
             if root is None:
@@ -80,6 +90,8 @@ nah masuk ke fungsi find_min untuk mencari nilai min yang mana ada di root bagia
 
 begitupun juga find_max yang mana mencari nilai terbesar yang mana berada di root bagian kanan.
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185525.png)
+
     def count_nodes(self, root):
         if root is None:
             return 0
@@ -92,6 +104,8 @@ begitupun juga find_max yang mana mencari nilai terbesar yang mana berada di roo
 kemudian ada fungsi count_nodes yang mana mengitung total dalam BST dimulai dari cek apakai root kosong jika tidak maka root+total seluruh bagian kiri+total seluruh bagian kanan
 
 dan terakhir sum_nodes yang mana menjumlahkan nilai daris semua nodes sama seperti count_nodesakan tetapi bukan menghitung jumlah tetapi nilai dari seluruh nodes dari root+total seluruh bagian kiri+total seluruh bagian kanan
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185539.png)
 
     def main():
         bst = BSTNilaiSiswa()
@@ -112,6 +126,8 @@ dan terakhir sum_nodes yang mana menjumlahkan nilai daris semua nodes sama seper
                 print("Input tidak valid!")
                 continue
 lanjut ke fungsi utama sistem dimulai dengan memuat bst dengan memanggil keseluruhan isi BSTNilaiSiswa() lalu pilih dimulai dari 1-8 kalau lebih/kurang pada saat menginput pilih menu maka akan idak valid dan balik lagi ke input pilih menu            
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185642.png)
 
             if pilih == 1:
                 try:
@@ -190,6 +206,8 @@ ada juga 3 yang mana mengurutan nilai lalu diakhiri dengan space
                 print("Pilihan tidak valid!")
 dan masih ada 4-5 dengan mencetak hasil dari fungsinya masing2 dan ada 8 untuk menghentikan sistem dan jika menginput pilihan selain 1-8 maka "Pilihan tidak valid!"
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185651.png)
+
     if __name__ == "__main__":
         main()
 nah terakhir ada untuk memulai program dari awal hingga akhir
@@ -197,31 +215,40 @@ nah terakhir ada untuk memulai program dari awal hingga akhir
 D. Output Program
 =================
 
-    foto 1
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20185942.png)
+
 Sistem dibuka dengan memilih dari 8 pilihan menu
 
-    foto 2
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190000.png)
+
 jika memasukan angka selain 1-8 maka muncul "Pilihan tidak valid!"
 
-    foto 3
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190112.png)
+
 misal disini memilih menu 1 maka akan memasukkan nilai, disini kita sudah memasukan bbrp nilai sebagai contoh
 
-    foto 4
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190134.png)
+
 jika kita mencari(opsi 2) kita akan disuruh input  nilai yang hendak dicari misal disini 70 maka nilai akan ditemukan
 
-    foto 5
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190156.png)
+
 kalau mau melihat urutan data maka pilih opsi 3 maka secara otomatis data akan terurut
 
-    foto 6
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190219.png)
+
 lalu ada opsi 4. Nilai Terendah dan 5. Nilai Tertinggi jika mau melihat dari urutan nilai mana nilai terendah dan tertinggi
 
-    foto 7 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190236.png)
+
 opsi 6 jika kamu mau melihat berapa jumlah ada berapa nilai siswa yang sudah dimasukkan
 
-    foto 8
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190253.png)
+
 opsi 7 jika ingin menjumlahkan keseluruhan nilai siswa yang sudah dimasukkan
 
-    foto 9
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ab321d9c5ea88bd78c8e37e0c39e52013438b5bc/img5/Screenshot%202026-05-21%20190314.png)
+
 terakhir opsi 8 untuk mengakhiri program/sistem
 
 e. Link YouTube
