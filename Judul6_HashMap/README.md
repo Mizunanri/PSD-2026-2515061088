@@ -239,19 +239,20 @@ misal disini salah input kode obat maka akan tidak ditemukan
 lanjut update stok dengan cari kode obat dan akan  diminta untuk stok terbaru
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20192930.png)
-kalau menghapus maka saat dicari akan tidak ditemukan karna sudah diremove
+
+lanjut update stok dengan cari kode obat dan akan  diminta untuk stok terbaru
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20192953.png)
 
-kalau kamu salah memilih pilihan menu maka akan tidak vaid
+kalau menghapus maka saat dicari akan tidak ditemukan karna sudah diremove
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20193119.png)
 
-terakhir 5 untuk mengakhiri sistem
+kalau kamu salah memilih pilihan menu maka akan tidak valid
 
 ![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20193144.png)
 
-terakhir 6 untuk mengakhiri sistem
+terakhir 5 untuk mengakhiri sistem
 
 e. Link YouTube
 ===============
