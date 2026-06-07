@@ -16,6 +16,8 @@ Metode Separate Chaining digunakan untuk mengatasi collision yang terjadi ketika
 C. Penjelasan Kode
 ==================
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20170453.png)
+
     class Node:
         def __init__(self, key, value):
             self.key = key
@@ -23,6 +25,8 @@ C. Penjelasan Kode
             self.next = None
 pertama membuat objek/class node tree dengan fungsi dengan parameter self, key dan value
 self berfungsi memanggil diri sendiri lalu untuk key untuk inisiasi nlai dari value dan memanggil nilai value, dan value untuk nilai dari key
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20170512.png)
 
     class HashMapSeparateChaining:
         def __init__(self, size=10):
@@ -32,6 +36,8 @@ self berfungsi memanggil diri sendiri lalu untuk key untuk inisiasi nlai dari va
         def hash_function(self, key):
             return (key % self.SIZE + self.SIZE) % self.SIZE
 selanjutnya memulai dengan buat class hash map separate Chaining dan pemanggilan fungsi membuat table dengan ukuran 10 yg mana masih kosong dan function untuk memastikan saja hash map berkerja atau tidak serta menentukan posisi (indeks) penyimpanan data pada Hash Map berdasarkan kode obat yang dimasukkan. 
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20170520.png)
 
         def insert(self, key, value):
             index = self.hash_function(key)
@@ -58,6 +64,8 @@ kemudian fungsi insert dimulai dengan mengisi index dan current untuk cek apakah
 
 selanjutnya ada search sama seperti insert tetapi fungsinya untuk mencari suatu value berdasarkan key yg diinputkan.
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20170533.png)
+
         def update_stock(self, key, stok_baru):
             hasil = self.search(key)
             if hasil is not None:
@@ -83,6 +91,8 @@ lanjut ke update stok dimulai dari hasil yg mana menggunakan fungsi search untuk
 
 terakhir fungsi delete karena fungsinya mirip kaya linked list jadi prev akan mulai dri luar dan current di key awal jika nilainya bukan itu maka prev dan current akan pindah kedepan, jika data yg mau  dihapus sudah sesuai maka curent akan dilewat dan prev akan maju kedepan dan current akan berpindah posisi sehingga current pindah ke prev bagian depan dan prev akan berpindah ke tempat semula sebelum data yg dihapus.
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20170546.png)
+
     def main():
         hashmap = HashMapSeparateChaining()
         pilih = 0
@@ -95,6 +105,8 @@ terakhir fungsi delete karena fungsinya mirip kaya linked list jadi prev akan mu
             print("5. Keluar")
             pilih = input("Pilih menu: ")
 nah masuk ke main program dmn ini dimulai dgn membuat fungsi hash map dan sistem stok obatnya, jika memilih 1-5 maka bisa melakukan sesuai kebutuhan kalau tidak dari 1-5 maka akan tidak valid.
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20170623.png)
 
             if pilih == "1":
                 try:
@@ -201,6 +213,8 @@ ada juga 4 yg mana mencari kode yaitu key jika ketemu maka otomatis terhapus.
                 print("Pilihan tidak valid!")
 dan masih ada 5 yg mana malakukan print program selesai dan sistem berhenti. 
 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20170645.png)
+
     if __name__ == "__main__":
         main()
 nah terakhir ada untuk memulai program dari awal hingga akhir
@@ -208,26 +222,36 @@ nah terakhir ada untuk memulai program dari awal hingga akhir
 D. Output Program
 =================
 
-    foto 1
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/bee10d7f0930f1f89b64a584c340b3735dffd363/img6/Screenshot%202026-06-07%20203356.png)
+
 Sistem dibuka dengan memilih dari 5 pilihan menu
 
-    foto 2
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20192838.png)
+
 pertama memasukan kode obat dan stoknya
 
-    foto 3
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20192851.png)
+
 misal disini salah input kode obat maka akan tidak ditemukan
 
-    foto 4
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20192902.png)
+
 lanjut update stok dengan cari kode obat dan akan  diminta untuk stok terbaru
 
-    foto 5
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20192930.png)
 kalau menghapus maka saat dicari akan tidak ditemukan karna sudah diremove
 
-    foto 6
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20192953.png)
+
 kalau kamu salah memilih pilihan menu maka akan tidak vaid
 
-    foto 7 
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20193119.png)
+
 terakhir 5 untuk mengakhiri sistem
+
+![image alt](https://github.com/Mizunanri/PSD-2026-2515061088/blob/ade11c926ce2c9a67a1eab2ecc4420fbaee91c6e/img6/Screenshot%202026-06-07%20193144.png)
+
+terakhir 6 untuk mengakhiri sistem
 
 e. Link YouTube
 ===============
